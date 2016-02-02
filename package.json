@@ -1,0 +1,25 @@
+{
+  "name": "url-short",
+  "version": "1.0.0",
+  "description": "shortens urls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nonplused/URLShort.git"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "restful-promise": "~1.0.5",
+    "mongoose": "~4.3.7"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nonplused/URLShort/issues"
+  },
+  "homepage": "https://github.com/Nonplused/URLShort#readme"
+}
