@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "express": "~4.13.4",
-    "mongoose": "~4.3.7"
+    "mongoose-simpledb": "~5.1.0"
   },
   "author": "",
   "license": "ISC",
