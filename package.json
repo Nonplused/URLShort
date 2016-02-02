@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "express": "~4.13.4",
-    "restful-promise": "~1.0.5",
     "mongoose": "~4.3.7"
   },
   "author": "",
