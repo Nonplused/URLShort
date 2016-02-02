@@ -7,7 +7,7 @@ var app = express();
 
 //Routes
 app.use('/new', require('./routes/new.js'));
-app.use('/', require('./routes/shortUrls.js'));
+app.use('/*', require('./routes/shortUrls.js'));
 
 //Start server
 app.listen(port, function() {
