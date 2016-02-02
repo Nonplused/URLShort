@@ -1,7 +1,7 @@
 var simpledb = require('mongoose-simpledb');
 
 module.exports = function(target, resFunc) {
-  if (target.match(/https?:\/\/\w+\.\w+\.*/)) {
+  if (/https?:\/\/\w+\.\w+\.*/.test(target)) {
     simpledb.init('mongodb://localhost/Urls', function(err, db) {
       if (err) throw err;
       db.Url.where({Url: target}).findOne(function(err, match) {
