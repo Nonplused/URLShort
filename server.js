@@ -1,8 +1,9 @@
 //Dependencies
 var express = require('express');
+var config = require('konfig')();
 
 //Express
-var port = process.env.PORT || 5000;
+var port = config.app.port;
 var app = express();
 
 //Routes
