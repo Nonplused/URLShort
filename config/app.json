@@ -1,0 +1,10 @@
+{
+  "default": {
+    "port": 5000,
+    "connectionString": "mongodb://localhost/Urls"
+  },
+  "production": {
+    "port": #{process.env.PORT},
+    "connectionString": "mongodb://heroku_s1z0thzz:g4ncrklt1j1omjg0pe7iii0vo7@ds055495.mongolab.com:55495/heroku_s1z0thzz"
+  }
+}
